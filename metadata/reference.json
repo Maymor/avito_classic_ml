@@ -1,0 +1,25 @@
+{
+  "recipe": "submitted_v2",
+  "python_version": "3.11.9",
+  "threads": 8,
+  "n_test_cookies": 4909,
+  "n_features": 472,
+  "submission_sha256": "79097c046198354ff747ad08266702f6d0d8051d1305f556ceaa1c8da141ebea",
+  "input_sha256": {
+    "train.csv": "b659a0e9e3df8146a1c10ca33cace9ece3da016e0ce3a502cbabf6554b88c55f",
+    "test.csv": "1a0342a55a30ff5bb0ee14428b91d2e18c759f55bf1ed35554b80f423f35f4b7",
+    "events.csv.gz": "fa6923a91846aed3f8212cde039732fcf8d818b1f9f44a57878bb133de185901"
+  },
+  "hidden_test": {
+    "source": "Reported by the user after platform submission; hidden labels are unavailable",
+    "v1_precision_at_recall_0.7": 0.79361,
+    "v2_precision_at_recall_0.7": 0.82278,
+    "constant_precision_at_recall_0.7": 0.09391
+  },
+  "temporal_validation": {
+    "periods": [["2026-04-11", "2026-04-14"], ["2026-04-14", "2026-04-17"], ["2026-04-17", "2026-04-20"]],
+    "v1_precision_at_recall_0.7": [0.6572769953051644, 0.7873563218390804, 0.7887323943661971],
+    "v2_precision_at_recall_0.7": [0.7253886010362695, 0.7965116279069767, 0.8235294117647058],
+    "used_for_model_selection": true
+  }
+}

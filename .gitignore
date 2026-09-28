@@ -1,0 +1,14 @@
+# Исходные данные не публикуем; проверяющий уже получил их вместе с заданием.
+data/*
+!data/README.md
+
+# Окружение и файлы повторного обучения не нужны в git.
+.venv/
+outputs/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.cache/
+.jupyter/
+.pytest_cache/
+catboost_info/
