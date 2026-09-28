@@ -12,3 +12,21 @@ __pycache__/
 .jupyter/
 .pytest_cache/
 catboost_info/
+
+# Служебные файлы ОС и редакторов.
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Локальные окружения и логи.
+venv/
+.env
+.env.*
+!.env.example
+*.log
